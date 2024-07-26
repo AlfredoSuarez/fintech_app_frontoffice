@@ -1,6 +1,4 @@
 pip
-flask
-streamlit
 langchain
 langchain-community
 langchain-core
@@ -8,7 +6,7 @@ langchain-openai
 langchain-text-splitters
 numpy
 pandas
-orjson
+jsonschema
 plotly
 pymongo
 requests
