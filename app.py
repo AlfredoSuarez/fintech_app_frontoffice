@@ -6,7 +6,7 @@ import io
 from io import StringIO
 import gspread
 import requests
-from google.cloud import storage
+#from google.cloud import storage
 import json
 from google.oauth2.credentials import Credentials
 from google.oauth2 import service_account
@@ -18,8 +18,8 @@ from pymongo import MongoClient
 import boto3
 from botocore.exceptions import NoCredentialsError
 #from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
-from langchain_openai import ChatOpenAI
-from langchain.schema import AIMessage,HumanMessage,SystemMessage
+#from langchain_openai import ChatOpenAI
+#from langchain.schema import AIMessage,HumanMessage,SystemMessage
 from dotenv import load_dotenv
 load_dotenv()
 # Setup OpenAI API Key
