@@ -1,10 +1,10 @@
+pip
 streamlit
 langchain
 langchain-community
 langchain-core
 langchain-openai
 langchain-text-splitters
-matplotlib
 numpy
 pandas
 orjson
