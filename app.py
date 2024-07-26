@@ -6,7 +6,7 @@ import io
 from io import StringIO
 import gspread
 import requests
-#from google.cloud import storage
+from google.cloud import storage
 import json
 from google.oauth2.credentials import Credentials
 from google.oauth2 import service_account
