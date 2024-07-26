@@ -1,15 +1,1 @@
-pip
-openai
-numpy
-pandas
-jsonschema
-plotly
-pymongo
-requests
-requests-oauthlib
-boto3
-gspread
-oauthlib
-python-dotenv
-urllib3
-Werkzeug
+
