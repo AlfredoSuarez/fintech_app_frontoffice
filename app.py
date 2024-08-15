@@ -176,7 +176,7 @@ if not st.session_state.authenticated:
 if st.session_state.authenticated:
     st.sidebar.button("Logout", on_click=logout_user)
 
-    st.title("Capital")
+    st.title("Bitbond.com.mx")
 
     # Chatbot Integration
     st.subheader("Chat with our AI")
