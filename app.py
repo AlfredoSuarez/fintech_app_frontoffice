@@ -229,7 +229,7 @@ if st.session_state.authenticated:
     st.subheader("Upload Files")
     pdf_file = st.file_uploader("Upload PDF files", type=["pdf"])
     csv_file = st.file_uploader("Upload CSV files", type=["csv"])
-    excel_file = st.file_uploader("Upload CSV files", type=["xls, xlsx"])
+    excel_file = st.file_uploader("Upload Excel files", type=["xls, xlsx"])
     
     uploaded_files = []
     # Save uploaded files
