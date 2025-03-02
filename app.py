@@ -244,6 +244,17 @@ if st.session_state.authenticated:
             f.write(csv_file.getbuffer())
         st.success(f"Uploaded {csv_file.name}")
         uploaded_files.append(csv_file)
+    
+    # Process Excel file (handling multiple sheets)
+    if excel_file is not None:
+        excel_data = pd.read_excel(excel_file, sheet_name=None)  # Read all sheets
+        st.success(f"Uploaded: {excel_file.name}")
+
+        st.write("### Excel File Preview:")
+        for sheet_name, df_sheet in excel_data.items():
+            st.write(f"#### Sheet: {sheet_name}")
+            st.dataframe(df_sheet.head())
+        uploaded_files.append(excel_file)
         #username = st.text_input("Type Username to confirm to send")
      # Upload to AWS Storage
     company = st.text_input("Type Your Company's Name to confirm to send")
